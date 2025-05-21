@@ -4,7 +4,7 @@
 #include <string>
 
 
-clsaa House {
+class House {
 public:
     string address;
     string description;
