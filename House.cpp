@@ -5,7 +5,8 @@
 using namespace std;
 
 House::House() {
-    
+    address = "123 Notarealstreet";
+    description = "boring";
 }
 
 House::House(string address, string description) {
