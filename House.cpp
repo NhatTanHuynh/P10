@@ -5,8 +5,7 @@
 using namespace std;
 
 House::House() {
-    address = "56 Totallybelievablestreetname";
-    description = "blue";
+    
 }
 
 House::House(string address, string description) {
@@ -19,5 +18,5 @@ int House::addressLength() {
 }
 
 void House::printInfo() {
-    cout << "The house at" << address << " is " << description << "." << endl;
+    cout << "The house at " << address << " is " << description << "." << endl;
 }
