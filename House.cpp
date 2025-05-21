@@ -1,10 +1,12 @@
 // Variables/state
+#include <string>
 #include <iostream>
-#include <House.h>
+#include "House.h"
+using namespace std;
 
 House::House() {
-    address = "123 Notarealstreet";
-    description = "boring";
+    address = "56 Totallybelievablestreetname";
+    description = "blue";
 }
 
 House::House(string address, string description) {

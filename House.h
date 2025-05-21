@@ -2,7 +2,7 @@
 #define HOUSE_H
 
 #include <string>
-
+using namespace std;
 
 class House {
 public:
