@@ -14,13 +14,13 @@ Account::Account(string name) {
 }
 
 void Account::deposit(int amount) {
-    if (amount < 0) {
+    if (amount >= 0) {
         balance += amount;
     } 
 }
 
 bool Account::withdraw(int amount) {
-    if (balance - amount > 0 && amount >= 0) {
+    if (amount >= 0 && balance - amount >= 0) {
         balance -= amount;
         return true;
     } else {
