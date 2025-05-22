@@ -1,5 +1,5 @@
-#ifndef ACCOUNT_H
-#define ACCOUNT_H
+#ifndef Bank_H
+#define Bank_H
 #include "Account.h"
 
 #include <string>
@@ -20,7 +20,7 @@ public:
     Account** getAccounts();                  // Return accounts
     int getNumAccounts();
     void applyInterestAll(double interest);
-}
+};
 
 
 
