@@ -19,6 +19,6 @@ public:
     bool withdraw(int amount);             // Withdraw amount from balance, see description for details
     void applyInterest(double interest);   // Applies interest to account
     void printInfo();                      // Prints account info as per format in description
-}
+};
 
 #endif
